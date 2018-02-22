@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Siebel CRM Application Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Siebel CRM Application Test Cases(failed)">
+    <classes>
+      <class name="com.crm.qa.tests.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="pagetitleTest"/>
+          <include name="setup"/>
+          <include name="oraclelogoTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.tests.LoginPageTest -->
+      <class name="com.crm.qa.tests.ContactsPageTest">
+        <methods>
+          <include name="contactspagetitleTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.tests.ContactsPageTest -->
+      <class name="com.crm.qa.tests.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Siebel CRM Application Test Cases(failed) -->
+</suite> <!-- Failed suite [Siebel CRM Application Automation Test Suite] -->

@@ -1,0 +1,12 @@
+<suite name="Siebel CRM Application Automation Test Suite">
+<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+</listeners>
+	<test name="Siebel CRM Application Test Cases">
+		<classes>
+			<class name="com.crm.qa.tests.LoginPageTest"></class>
+			<class name="com.crm.qa.tests.HomePageTest"></class>
+			<class name="com.crm.qa.tests.ContactsPageTest"></class>
+		</classes>
+	</test>
+</suite>
