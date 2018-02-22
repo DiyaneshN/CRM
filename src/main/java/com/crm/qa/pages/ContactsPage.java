@@ -11,7 +11,7 @@ public class ContactsPage extends TestBase {
 	@FindBy(xpath="//a[text()='My Contacts']")
 	WebElement mycontacts;
 	
-	//Initialization
+	//Initialization GIT Check
 	public ContactsPage()
 	{
 		PageFactory.initElements(driver, this);
